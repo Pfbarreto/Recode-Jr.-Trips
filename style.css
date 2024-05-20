@@ -1,0 +1,74 @@
+:root{
+    --letra:rgb(255, 255, 255);
+    --letra-principal: rgb(35, 22, 6);
+    --cor-da-caixa: rgba(207, 207, 207, 0.112);
+    --cor-fundo-titulo:#aa7b4c;
+    --cor-backgroud-button:rgb(125, 84, 0);
+    --cor-de-uso:rgb(255, 175, 109);
+
+}
+body{
+    background-image: url(./assets/plane\ taking\ of\ fdc06c9f-ae72-484c-a447-d067a73dd2b2.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flexbox;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.caixa__cor{
+    background-color: var(--cor-da-caixa);
+    backdrop-filter: blur(10px);
+    border-radius: 1em;
+    margin: 10%;
+    padding: 0% 1% 1% 1%;
+}
+.caixas_input{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.titulo{
+    font-size: 2em;
+    margin-top: 0%;
+    background-image: linear-gradient(var(--cor-fundo-titulo),transparent);
+    border-radius: 100%;
+}
+.titulo__secundario{
+    color: var(--letra);
+}
+.texto{
+    margin-bottom: 1%;
+    padding: 5px 0 5px 2px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px;
+
+
+
+}
+.botao__busca{
+    border-radius: 8px;
+    background-color: var(--cor-backgroud-button);
+    padding: 1em 2em 1em 2em;
+    border: 0%;
+    margin-bottom: 15px;
+}
+label{
+    color: var(--letra);
+}
+.botao__busca:hover{
+    background-color: var(--cor-de-uso) ;
+}
+.texto:active{
+    border: 1px solid var(--cor-de-uso);
+}
+.link__click{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
